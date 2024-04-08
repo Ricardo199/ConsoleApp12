@@ -45,7 +45,7 @@ namespace MyApp
                     Console.WriteLine("Would you like to try again? Y or N");
                     if (Console.ReadLine().ToLower() == "n")
                     {
-                        flg++;
+                        break;
                     }
                 }
                 //showing the error if any in the count of the array
