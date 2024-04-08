@@ -25,7 +25,7 @@ namespace MyApp
                 Console.Write("Enter the count: ");
 
                 //checking if we got an integer 
-                if (int.TryParse(Console.ReadLine(), out count) && int.Parse(Console.ReadLine())>0)
+                if (int.TryParse(Console.ReadLine(), out count))
                 {
                     //calling the method
                     tmp = ricardoAdd(count);
