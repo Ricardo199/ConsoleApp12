@@ -13,7 +13,6 @@ namespace MyApp
             string tmp;
             double avg;
             int flg = 0;
-            string nflg;
 
             //loop for repeating execution
             while (flg == 0)
